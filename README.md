@@ -1,36 +1,46 @@
-Overview
+Overview:
+
 Credit card is the most popular mode of payment. As the number of credit card users is rising world-wide, the identity theft is increased, and frauds are also increasing. In the virtual card purchase, only the card information is required such as card number, expiration date, secure code, etc. Such purchases are normally done on the Internet or over telephone. To commit fraud in these types of purchases, a person simply needs to know the card details.The mode of payment for online purchase is mostly done by credit card. The details of credit card should be kept private. To secure credit card privacy, the details should not be leaked. Different ways to steal credit card details are phishing websites, steal/lost credit cards, counterfeit credit cards, theft of card details, intercepted cards etc. For security purpose, the above things should be avoided. In online fraud, the transaction is made remotely and only the card’s details are needed. The simple way to detect this type of fraud is to analyze the spending patterns on every card and to figure out any variation to the “usual” spending patterns.Fraud detection by 
 analyzing the existing data purchase of cardholder is the best way to reduce the rate of successful credit card frauds. As the data sets are not available and also the results are not disclosed to the public. The fraud cases should be detected from the available data sets known as the logged data and user behavior. At present, fraud detection has been implemented by a number of methods such as data mining, statistics, and artificial intelligence.
 
-Objective 
+Objective :
+
 As the world is rapidly moving towards digitization and money transactions are becoming cashless, the use of credit cards has rapidly increased. The fraud activities associated with it have also been increasing which leads to a huge loss to the financial institutions. Therefore, we need to analyze and detect the fraudulent transaction from the non-fraudulent ones. The main aim of the project is to develop a sophisticated system that can accurately identify and prevent fraudulent transactions. Here we implement different machine learning algorithms on an imbalanced dataset such as logistic regression and KNN. So different classification models are applied to the data and the model performance is evaluated on the basis of quantitative measurements such as accuracy, precision, score etc.The project focuses on detecting credit card fraud using machine learning and automating email notifications for timely alerts by cleaning and enhancing the dataset, creating new features, and addressing the imbalance between fraudulent and non-fraudulent transactions, we improve the model's accuracy. We train and evaluate various machine learning algorithms to identify suspicious transactions effectively. Additionally, an email automation system is developed to notify stakeholders immediately about potential fraud, combining data science and automation for a robust and efficient fraud detection solution.
 
-Existing System
+Existing System:
 
 •	Since the credit card fraud detection system is a highly researched field, there are many different algorithms and techniques for performing the credit card fraud detection system. 
 •	One of the earliest systems is CCFD system using Markov model. Some other various existing algorithms used in the credit cards fraud detection system includes Cost sensitivedecision tree (CSDT). 
 •	credit card fraud detection (CCFD) is also proposed by using neural networks. The existing credit card fraud detection system using neural network follows the whale swarmoptimization algorithm to obtain an incentive value. 
 •	It the uses BP network to rectify the values which are found error.
+![image](https://github.com/user-attachments/assets/1565c690-b89b-44f9-b660-ecc3b79b9fec)
 
          
-Limitations 
+Limitations :
+
 If the time interval is too short, then Markov models are inappropriate
 because the individual displacements are not random, but rather are deterministically related in time. This example suggests that Markov models are generally inappropriate over sufficiently short time intervals
 
-Proposed System
+Proposed System:
 
 Support Vector Machine:
 SVM works by mapping data to a high-dimensional feature space so that data points can be categorized, even when the data are not otherwise linearly separable. A separator between the categories is found, then the data are transformed in such a way that the separator could be drawn as a hyperplane Training regression model and finding out the best one.
- 
+ ![image](https://github.com/user-attachments/assets/f41f66d9-a266-404f-b653-e0979517c155)
+
 
 Random Forest Classifier 
 Features are cheekbone to jaw width, width to upper facial height ratio, perimeter to area ratio, eye size, lower face to face height ratio, face width to lower face heightratio and mean of eyebrow height. The extracted features are normalized and finally subjected to support regression
+![image](https://github.com/user-attachments/assets/70eb373b-dc6d-4ae6-9aa5-02b30fd3465e)
 
  
 Decision Tree 
 A decision tree is a type of supervised machine learning used to categorize or make predictions based on how a previous set of questions were answered. The model is a form of supervised learning, meaning that the model is trained and tested on a set of data that contains the desired categorization.
 
- Advantages
+![image](https://github.com/user-attachments/assets/96883644-35d2-4f8e-af51-93094d842079)
+
+
+ Advantages:
+ 
 •	Support vector machine works comparably well when there is an understandablemargin of dissociation  between classes.
 •	SVM is effective in instances where the number of dimensions is larger than thenumber of specimens. 
 •	Simple to understand and to interpret. 
@@ -40,7 +50,8 @@ A decision tree is a type of supervised machine learning used to categorize or m
 •	Random forest classifier can be used to solve for regression or classification problems. 
 •	The random forest algorithm is made up of a collection of decision trees, and each tree in the ensemble is comprised of a data sample drawn from a training set with replacement, called the bootstrap sample.
 
-Objectives
+Objective:
+
 1.	Develop a Fraud Detection Model: Create a machine learning model to identify fraudulent transactions from a credit card dataset.
 2.	Ensure Accurate Detection: Implement K-Nearest Neighbors (KNN) and Logistic Regression to achieve high accuracy, precision, recall, and F1-score in detecting fraud.
 3.	Handle Class Imbalance: Apply techniques to address class imbalance, ensuring effective identification of rare fraudulent transactions.
@@ -74,16 +85,22 @@ Results:
 
 ![image](https://github.com/user-attachments/assets/e791bbf0-230f-4b13-b23f-f5d74c5cd309)
 
+
 ![image](https://github.com/user-attachments/assets/8fb92a22-e25b-425e-8b97-119995d93c60)
+
 
 ![image](https://github.com/user-attachments/assets/41638a80-0606-4579-baa4-ccea490a8dc2)
 
+
 ![image](https://github.com/user-attachments/assets/7171a286-9c54-4836-a24e-2a2f97f97487)
+
 
 ![image](https://github.com/user-attachments/assets/ad61b15b-18ec-4295-b5d0-b9aba12ca1cf)
 
 
+
 ![image](https://github.com/user-attachments/assets/f2e87ff8-d0fa-40c4-b5b4-820e4724826d)
+
 
 
 CONCLUSION
